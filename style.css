@@ -1,0 +1,76 @@
+@media print {
+    body {
+        zoom: 86%; 
+    }
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+         
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px 100px;
+        }
+        h1 {
+            /* font-family: 'Raleway'; */
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2{
+            margin-bottom: 2px;
+        }
+        .edu{
+            display: flex;
+            justify-content: space-between;
+            align-items: left;
+        }
+        .date {
+            white-space: nowrap; 
+        }
+        p, li {
+            line-height: 1;
+        }
+        .contact {
+            /* gap: 1px; */
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            flex-wrap: wrap; 
+            font-size: 14px;
+        }
+        .contact span {
+            margin-right: 11px; 
+            white-space: nowrap;
+            text-align: right;
+            /* align-items: center; */
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background: #1a1717;
+            margin: 20px 0;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 2px;
+        }
+        .project-item {
+            margin-bottom: 15px;
+        }
+        #italic{
+            font-style: italic;
+            font-weight: 120;
+            font-size: 14.3px;
+            /* letter-spacing: 0.2px; */
+        }
+        /* .project-title {
+            font-weight: bold;
+        } */
+    }
